@@ -1,0 +1,469 @@
+<!DOCTYPE HTML>
+<html lang="ro">
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Bootstrap-ecommerce by Vosidiy">
+
+	<title>CPT | Cart</title>
+	<link rel="#">
+	<link rel="shortcut icon" type="image/x-icon bg" href="../images/items/logo.png">
+
+	<!-- jQuery -->
+	<script src="../js/jquery-2.0.0.min.js" type="text/javascript"></script>
+
+	<!-- Bootstrap4 files-->
+	<script src="../js/bootstrap.bundle.min.js" type="text/javascript"></script>
+	<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+	<!-- Font awesome 5 -->
+	<link href="../fonts/fontawesome/css/fontawesome-all.min.css" type="text/css" rel="stylesheet">
+
+	<!-- plugin: fancybox  -->
+	<script src="../plugins/fancybox/fancybox.min.js" type="text/javascript"></script>
+	<link href="../plugins/fancybox/fancybox.min.css" type="text/css" rel="stylesheet">
+
+		<!-- plugin: owl carousel  -->
+	<link href="../plugins/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="../plugins/owlcarousel/assets/owl.theme.default.css" rel="stylesheet">
+	<script src="../plugins/owlcarousel/owl.carousel.min.js"></script>
+
+	<!-- plugin: slickslider -->
+	<link href="../plugins/slickslider/slick.css" rel="stylesheet" type="text/css" />
+	<link href="../plugins/slickslider/slick-theme.css" rel="stylesheet" type="text/css" />
+	<script src="../plugins/slickslider/slick.min.js"></script>
+
+	<!-- custom style -->
+	<link href="../css/ui.css" rel="stylesheet" type="text/css"/>
+	<link href="../css/responsive.css" rel="stylesheet" media="only screen and (max-width: 1200px)" />
+
+	<!--My styles-->
+	<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+
+	<!-- custom javascript -->
+	<script src="../js/script.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+	/// some script
+
+	// jquery ready start
+	$(document).ready(function() {
+		// jQuery code
+
+	}); 
+	// jquery end
+	</script>
+
+	</head>
+<body>
+<header class="section-header">
+	<nav class="navbar navbar-expand-sm navbar-dark bg-primary fixed-top">
+		<div class="container">
+			<div class="row" style="width:100%;">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+		<li class="nav-item ">
+		<a class="nav-link" href="../index.html">ACASĂ</a>
+		<li class="nav-item"><a class="nav-link" href="../categories/romana.html"> ROMANĂ </a></li>
+		<li class="nav-item"><a class="nav-link" href="../categories/universala.html"> UNIVERSALĂ</a></li>
+		<li class="nav-item"><a class="nav-link" href="../pages/contacts.html"> CONTACTE  </a></li>		
+		</ul>
+		</div>
+	</div> <!-- container //  -->
+</div> <!-- col.// -->
+<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+	<div class="widgets-wrap float-right row no-gutters py-1">
+		<div class="col-auto">
+			<div class="widget-header dropdown">
+				<a href="#" class="btn-primary" data-toggle="dropdown" data-offset="20,10">
+				<div class="icontext">
+					<div class="icon-wrap"><i class="text-light icon-sm fa fa-user"></i></div>
+				</div>
+			</a>
+			<div class="dropdown-menu">
+				<form class="px-4 py-3">
+					<div class="form-group">
+					  <label>Email address</label>
+					  <input type="email" class="form-control" placeholder="email@example.com">
+					</div>
+					<div class="form-group">
+					  <label>Password</label>
+					  <input type="password" class="form-control" placeholder="Password">
+					</div>
+					<a href="../pages/registration.html" class=" btn btn-outline-primary">Sign up</a>
+					</form>
+					<hr class="dropdown-divider">
+					<a class="dropdown-item" href="../pages/registration.html">Have account? Sign up</a>
+					<a class="dropdown-item" href="#">Forgot password?</a>
+					</div> <!--  dropdown-menu .// -->
+					</div>  <!-- widget-header .// -->
+					</div> <!-- col.// -->
+		<div class="col-auto">
+			<a href="#" class="widget-header ">
+				<div class="icontext">
+					<div class="icon-wrap"><i class="text-dark icon-sm fa fa-shopping-cart activel"></i>
+						<span class="notify">3</span>
+					</div>
+				</div>
+			</a>
+		</div> <!-- col.// -->
+		<div class="col-auto">
+			<a href="../pages/wishlist.html" class="widget-header">
+				<div class="icontext">
+					<div class="icon-wrap"><i class="text-light icon-sm  fa fa-heart"></i>
+						<span class="notify">4</span>
+					</div>
+				</div>
+			</a>
+		</div> <!-- col.// -->
+	</div> <!-- widgets-wrap.// row.// -->
+</div> <!-- col.// -->
+</div>
+<div>
+	</nav>
+
+	<a href="../index.html">
+<section class="header-main">
+	<div class="container">
+<div class="row align-items-center">
+	<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+	<div class="brand-wrap">
+		<img class="logo" src="../images/items/logo.png"></a>	
+		<h2 class="logo-text">Carte Pentru Toți</h2>
+	</div> <!-- brand-wrap.// -->
+</div>
+	<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+			<form action="" class="widget-header float-right">
+				<div class="input-group">
+				    <input type="text" class="form-control" placeholder="Căutare">
+				    <div class="input-group-append">
+				      <button class="btn btn-primary" type="submit">
+				        <i class="fa fa-search"></i>
+				      </button>
+				    </div>
+			    </div>
+			</form> <!-- search-wrap .end// -->
+	</div> <!-- col.// -->
+
+    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+        <a href="#" class="widget-header float-md-right">
+            <div class="icontext text-secondary">
+                <div class="icon-wrap"><i class="flip-h fa-lg fa fa-phone"></i></div>
+                <div class="text-wrap">
+                    <small>Telefon:</small>
+                    <div>+373 78 07 3666</div>
+                </div>
+            </div>
+        </a>
+</div> <!-- col.// -->
+
+</div> <!-- row.// -->
+	</div> <!-- container.// -->
+</section> <!-- header-main .// -->
+</header> <!-- section-header.// -->
+<!--continut de baza-->
+
+                                    <!-- ========================= SECTION CONTENT ========================= -->
+                                    <section class="section-content bg padding-y border-top">
+                                        <div class="container">
+                                        
+                                        <div class="row">
+                                            <main class=" col-xl-9 col-lg-9 col-sm-12 col-md-12">
+                                        
+                                        <div class="card">
+                                        <table class="table  shopping-cart-wrap">
+                                        <thead class="text-muted">
+                                        <tr>
+										<th scope="col" width="40%">Coșul tau</th>
+										<th scope="col" width="120">Cantitate</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                    <tr>
+                        <td>
+                            <a href="../products/invitatie.la.vals.html">
+                    <figure class="media">
+                        <div class="img-wrap"><img src="../images/items/top1000x800/invitatielavals.jpg" class="img-thumbnail img-sm "></div>
+                        <figcaption class="media-body"></a>
+                           
+                            <h6 class="title text-wrap">Invitație la vals</h6>
+                            <dl class="dlist-inline small">
+                            <dt>M. Drumes</dt>
+                            </dl>
+                            <br /><var class="price h3 text-primary"> 
+                                <small class="text-secondary"><del>100 lei</del>&nbsp; &nbsp;<br></i></small>
+								<span class="currency"></span><span class="num">92 lei</span><small class="text-muted"> per / bucata</small>	
+						</figcaption>	
+					</figure> 
+                        </td>  
+							<td> 
+								<select class="form-control">
+									<option>1</option>
+									<option>2</option>	
+									<option>3</option>	
+									<option>4</option>	
+								</select> 
+							</td>            
+                      <td class="text-right"> 
+                        <a data-original-title="Save to Wishlist" title="" href="" class="btn btn-success" data-toggle="tooltip"> <i class="fa fa-heart"></i></a> 
+                        <a href="" class="btn btn-primary btn-round"> × Remove</a> 
+                        </td>
+                    </tr>
+                                    <tr>
+                                        <td>
+											<a href="../products/enigmaotiliei.html">
+                                    <figure class="media">
+                                        <div class="img-wrap"><img src="../images/items/top1000x800/enigmaOtiliei.jpg" class="img-thumbnail img-sm"></div>
+                                        <figcaption class="media-body"></a>
+                                            <h6 class="title text-wrap">Enigma Otiliei</h6>
+                                            <dl class="dlist-inline small">
+                                            <dt>G. Calinescu</dt>
+                                            </dl>
+                                            <br /><var class="price h3 text-primary"> 
+                                                <small class="text-secondary"><del>115 lei</del>&nbsp; &nbsp;<br></i></small>
+                                                <span class="currency"></span><span class="num">82 lei</span><small class="text-muted"> per / bucata</small>
+                                        </figcaption>
+                                    </figure> 
+                                        </td>
+										<td> 
+											<select class="form-control">
+												<option>1</option>
+												<option>2</option>	
+												<option>3</option>	
+												<option>4</option>	
+											</select> 
+										</td>                    
+                                    <td class="text-right"> 
+                                        <a data-original-title="Save to Wishlist" title="" href="" class="btn btn-success" data-toggle="tooltip"> <i class="fa fa-heart"></i></a> 
+                                        <a href="" class="btn btn-primary btn-round"> × Remove</a>
+                                        </td>
+                                    </tr>
+                <tr>
+                    <td>
+						<a href="../products/morometii.html">
+                <figure class="media">
+                    <div class="img-wrap"><img src="../images/items/top1000x800/morometii.jpg" class="img-thumbnail img-sm"></div>
+                    <figcaption class="media-body"></a>
+                        <h6 class="title text-wrap">Morometii</h6>
+                        <dl class="dlist-inline small">
+                        <dt>M. Preda</dt>
+                        </dl>
+                        <br /><var class="price h3 text-primary"> 
+                            <small class="text-secondary"><del>320 lei</del>&nbsp; &nbsp;<br></i></small>
+                            <span class="currency"></span><span class="num">195 lei</span><small class="text-muted"> per / bucata</small>
+                    </figcaption>
+                </figure> 
+                    </td>
+					<td> 
+						<select class="form-control">
+							<option>1</option>
+							<option>2</option>	
+							<option>3</option>	
+							<option>4</option>	
+						</select> 
+					</td>                   
+                  <td class="text-right"> 
+                    <a data-original-title="Save to Wishlist" title="" href="" class="btn btn-success" data-toggle="tooltip"> <i class="fa fa-heart"></i></a> 
+                    <a href="" class="btn btn-primary btn-round"> × Remove</a>
+                    </td>
+                </tr>
+                </tbody>
+                                    <tr>
+                                        <td>
+											<a href="../products/mara.html">
+                                    <figure class="media">
+                                        <div class="img-wrap"><img src="../images/items/romana/Mara.jpg" class="img-thumbnail img-sm"></div>
+                                        <figcaption class="media-body"></a>
+                                            <h6 class="title text-wrap">Mara</h6>
+                                            <dl class="dlist-inline small">
+                                            <dt>I. Slavici</dt>
+                                            </dl>
+                                            <br /><var class="price h3 text-primary"> 
+                                                <small class="text-secondary"><del>89 lei</del>&nbsp; &nbsp;<br></i></small>
+                                                <span class="currency"></span><span class="num">45 lei</span><small class="text-muted"> per / bucata</small>
+                                        </figcaption>
+                                    </figure> 
+                                        </td>
+										<td> 
+											<select class="form-control">
+												<option>1</option>
+												<option>2</option>	
+												<option>3</option>	
+												<option>4</option>	
+											</select> 
+										</td>                    
+                                    <td class="text-right"> 
+                                        <a data-original-title="Save to Wishlist" title="" href="" class="btn btn-success" data-toggle="tooltip"> <i class="fa fa-heart"></i></a> 
+                                        <a href="" class="btn btn-primary btn-round"> × Remove</a>
+                                        </td>
+                                    </tr>
+                </table>
+                </div> <!-- card.// -->
+                
+                    </main> <!-- col.// -->
+                    <aside class=" col-xl-3 col-lg-3 col-sm-12 col-md-12 id="collapse33"">
+                <p class="text-primary">Sumar Coș<hr></p>
+                <dl class="dlist-align">
+                <dt>Subtotal: </dt>
+                <dd class="text-right">115 lei</dd>
+                </dl>
+                <dl class="dlist-align">
+                <dt>Livrare:</dt>
+                <dd class="text-right"> pasul urmator</dd>
+                </dl>
+                <dl class="dlist-align h4">
+                <dt>Total:</dt>
+                <dd class="text-right"><strong>414 lei</strong></dd>
+                </dl>
+                <hr>
+                <button class="btn btn-block btn-success">Comanda</button>
+                
+                    </aside> <!-- col.// -->
+                </div>
+                
+                </div> <!-- container .//  -->
+                </section>
+                <!-- ========================= SECTION CONTENT END// ========================= -->
+    
+    <!-- ========================= SECTION  ========================= -->
+    <section class="section-name bg-white padding-y">
+    <div class="container">
+    <header class="section-heading">
+    <h2 class="title-section">CUMPĂRATE FRECVENT ÎMPREUNĂ</h2>
+    </header><!-- sect-heading -->
+    
+				<!--Owl slider items -->
+				<a href="">
+					<div class="owl-carousel owl-init slide-itemsn " data-items="5" data-margin="10" data-dots="true" data-nav="true">
+				<div class="item-slide text-dark">
+			<figure class="card card-product">
+				<span class="badge-new"> - 31%</span>
+				<div class="img-wrap"> <img src="../images/frecvent/portretul-lui-dorian-gray.jpg"> </div>
+				<figcaption class="info-wrap text-center">
+					<h6 class="title text-truncate ">Portretul lui Dorian Gray</h6>
+					<small><del>146,99 lei</del>&nbsp; &nbsp;<br></small>
+					<p class="price text-truncate mt-2 text-primary">99 lei</p>
+				</figcaption>
+			</figure> <!-- card // -->
+				</div>
+				</a>
+				<a href="">
+				<div class="item-slide text-dark">
+			<figure class="card card-product">
+				<span class="badge-new"> - 50%</span>
+				<div class="img-wrap"> <img src="../images/frecvent/scrisoare.de.dragoste.jpg"> </div>
+				<figcaption class="info-wrap text-center">
+					<h6 class="title text-truncate">Scrisoare de dragoste</h6>
+					<small><del>170,99 lei</del>&nbsp; &nbsp;<br></i></small>
+					<p class="price text-truncate mt-2 text-primary">100 lei</p>
+				</figcaption>
+			</figure> <!-- card // -->
+				</div>
+				</a>
+				<a href="https://www.instagram.com/p/CBjGRSVA4cr/?utm_source=ig_web_copy_link">
+				<div class="item-slide text-dark">
+			<figure class="card card-product">
+				<span class="badge-new"> - 50%</span>
+				<div class="img-wrap"> <img src="../images/frecvent/printre-tonuri.jpg"> </div>
+				<figcaption class="info-wrap text-center">
+					<h6 class="title text-truncate">Printre tonuri cenușii</h6>
+					<small><del>120 lei</del>&nbsp; &nbsp;<br></small>
+					<p class="price text-truncate mt-2 text-primary">112.10 lei</p>
+				</figcaption>
+			</figure> <!-- card // -->
+				</div>
+				</a>
+				<a href="https://www.instagram.com/p/CCdZqjIAJXy/?utm_source=ig_web_copy_link">
+				<div class="item-slide text-dark">
+			<figure class="card card-product">
+				<span class="badge-new"> - 50%</span>
+				<div class="img-wrap"> <img src="../images/frecvent/fuck.jpeg"> </div>
+				<figcaption class="info-wrap text-center">
+					<h6 class="title text-truncate">Unfu*k Yourself. Elibereaza-ti mintea si traieste-ti viata</h6>
+					<small><del>175 lei</del>&nbsp; &nbsp;<br></small>
+					<p class="price text-truncate mt-2 text-primary">89 lei</p>
+				</figcaption>
+			</figure> <!-- card // -->
+				</div>
+				</a>
+				<a href="https://www.instagram.com/p/CAnWjisHb_I/?utm_source=ig_web_copy_link">
+				<div class="item-slide text-dark">
+			<figure class="card card-product">
+				<span class="badge-new"> - 43%</span>
+				<div class="img-wrap"> <img src="../images/frecvent/crima-si-pedeapsa.jpg"> </div>
+				<figcaption class="info-wrap text-center">
+					<h6 class="title text-truncate">Crimă și Pedeapsa</h6>
+					<small><del>174 lei</del> &nbsp; &nbsp;<br></small>
+					<p class="price text-truncate mt-2 text-primary">120 lei</p>
+				</figcaption>
+			</figure> <!-- card // -->
+				</div>
+				</a>
+				<a href="https://www.instagram.com/p/BvxjtTjFuJNX_MnKja1IuBeIXnq8tuXJ9OIZA80/">
+				<div class="item-slide text-dark">
+			<figure class="card card-product">
+				<span class="badge-new"> - 45%</span>
+				<div class="img-wrap"> <img src="../images/items/acum/1.png"> </div>
+				<figcaption class="info-wrap text-center">
+					<h6 class="title text-truncate">Adam și Eva</h6>
+					<small><del>75 lei</del>&nbsp; &nbsp;</small>
+					<p class="price text-truncate mt-2 text-primary">41.50 lei</p>
+				</figcaption>
+			</figure> <!-- card // -->
+				</div>
+				</a>
+</div>
+<hr />
+<!-- ============== owl slide items .end // ============= -->
+    </section>
+    <!-- ========================= SECTION  END// ========================= -->
+    
+
+<!-- ========================= FOOTER ========================= -->
+<footer class="site-footer bg-primary">
+	<div class="container">
+	  <div class="row">
+		<div class="col-md-8 col-sm-6 col-xs-12">
+		  <h6>SCOPUL</h6>
+		  <p class="text-dark">În era gadgeturilor cărțile nu se mai iau în mână, <br>
+			noi suntem aici cu prețuri accesibili pentru magia carții, <br>
+			iar pentru cei mici de a o descopriri!</p>
+		</div>
+
+		
+
+		<div class="col-xs-6 col-md-3">
+		  <h6>Quick Links</h6>
+			<ul class="list-unstyled">
+				<li> <a href="../pages/login.html"> User Login </a></li>
+				<li> <a href="../pages/registration.html"> User register </a></li>
+				<li> <a href="../pages/cart.html"> My Orders </a></li>
+				<li> <a href="../pages/wishlist.html"> My Wishlist </a></li>
+			</ul>
+		</div>
+	  </div>
+	  <hr>
+	</div>
+	<div class="container">
+	  <div class="row">
+		<div class="col-md-8 col-sm-6 col-xs-12">
+		  <p class="copyright-text text-light">Created by: Rya</p>
+		</div>
+
+		<div class="btn-group white">
+			<a class="btn btn-facebook" title="Facebook" target="_blank" href="https://www.facebook.com/Carte-pentru-toti-101678774908523/?view_public_for=101678774908523"><i class="fab fa-facebook-f  fa-fw"></i></a>
+			<a class="btn btn-instagram" title="Instagram" target="_blank" href="https://www.instagram.com/cartepentrutoti/"><i class="fab fa-instagram  fa-fw"></i></a>
+
+		  </ul>
+		</div>
+	  </div>
+	</div>
+</footer>
+<!-- ========================= FOOTER END // ========================= -->
+
+</body>
+</html>

@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
+body{
+	font-family: 'Merriweather', serif;
+}
+
+.header-main {
+	margin-top: 140px;
+	transition: all 2s;
+}
+
+@media only screen and (min-width: 700px) {
+	.header-main {
+		margin-top: 60px;
+		transition: all 2s;
+}
+}
+
+@media only screen and(min-width: 770px){
+	.header-main{
+		margin-top: 105px;
+		transition: all 2s;
+	}
+}
+
+@media only screen and (min-width: 991px){
+	.header-main {
+		margin-top: 65px;
+		transition: all 2s;
+   } 
+}
+.intro {
+	background-image: url("../images/items/c4.jpg");
+	background-size: cover;
+	max-width: 1850px;
+	height: 554px;
+}
+
+.opac{
+	opacity: 0.7;
+}
+
+ 
+/* stiluri pentru pagina Contacte */
+/* proprietati pentru pagina contacte */
+/* copiate */
+.map-container-section {
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	height:0;
+  }
+  .map-container-section iframe {
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+  }
+  
+  /* adaugate */
+  .md-form i {
+	  background: MistyRose;
+	  padding: 10px;
+	  border-radius: 4px;
+  }
+  .ic i {
+	  background: MistyRose;
+	  padding: 15px;
+	  border-radius: 100%;
+  }
+  /* pana aici a fost la lectie*/
+  
+
+  .site-footer
+  {
+	background-color:#26272b;
+	padding:45px 0 20px;
+	font-size:15px;
+	line-height:24px;
+	color:#737373;
+  }
+  .site-footer hr
+  {
+	border-top-color:#bbb;
+	opacity:0.5
+  }
+  .site-footer hr.small
+  {
+	margin:20px 0
+  }
+  .site-footer h6
+  {
+	color:#fff;
+	font-size:16px;
+	text-transform:uppercase;
+	margin-top:5px;
+	letter-spacing:2px
+  }
+  .site-footer a
+  {
+	color:#000000;
+  }
+  .site-footer a:hover
+  {
+	color:#ffffff;
+	text-decoration:none;
+  }
+  .footer-links
+  {
+	padding-left:0;
+	list-style:none
+  }
+  .footer-links li
+  {
+	display:block
+  }
+  .footer-links a
+  {
+	color:#ffffff
+  }
+  
+
+  
